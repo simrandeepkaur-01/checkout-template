@@ -6,6 +6,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+}
+
 @layer components {
     .btn {
         @apply py-2 px-6 rounded-md bg-white text-inherit border-gray-400
@@ -14,4 +23,13 @@
     .h-98 {
         height: 30rem;
     }
+
+    .img-width {
+        width: 90px;
+    }
+
+    .img-height {
+        height: 90px;
+    }
+
 }
