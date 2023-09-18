@@ -20,10 +20,7 @@ module.exports = {
         'jost': ['Jost', 'sans-serif'],
       },
       screens: {
-        'xs': { 'min': '320px', 'max': '639px' },
-      },
-      maxHeight: {
-        '98': '42.5rem',
+        'xs': '639px',
       },
     },
   },
