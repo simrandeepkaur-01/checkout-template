@@ -88,9 +88,9 @@
                     <li
                         class="container mx-auto p-5 border border-gray-300 shadow md:rounded-md mt-28 sm:mt-32 md:mt-36 lg:mt-[152px]">
                         <section>
-                            <div class="flex flex-col xl:flex-row gap-9">
+                            <div class="flex flex-col xl:flex-row gap-9 ">
                                 <!-- product-image -->
-                                <div class="md:w-[548px] md:h-[504px] flex-none">
+                                <div class="md:w-[548px] md:h-[504px] flex-none flex items-center mx-auto">
                                     <img class="h-full w-full object-cover rounded-md" src="../../images/unnamed.png"
                                         alt="Ring-image">
                                 </div>
@@ -128,19 +128,19 @@
                                         </dl>
 
                                         <!-- Product price -->
-                                        <span class="font-medium text-2xl">$1,258.78</span>
+                                        <p class="font-medium text-2xl">$1,258.78</p>
                                     </header>
 
-                                    <!-- product details form-controls-->
-                                    <div class="flex flex-col sm:flex-row gap-x-8 md:gap-x-12 mt-4 mb-3">
-                                        <div class="flex gap-x-8 md:gap-x-12">
+                                    <!-- product details form-controls -->
+                                    <div class="flex flex-wrap gap-8 md:gap-x-12 mt-4 mb-3">
+                                        <div class="flex flex-wrap gap-6  md:gap-x-12">
 
                                             <!-- select size dropdown -->
                                             <div class="flex flex-col">
                                                 <label class="mb-2 font-medium text-sm text-gray-600" for="size">Ring
                                                     Size</label>
                                                 <select
-                                                    class="border text-sm border-gray-200 text-gray-500 w-36  md:w-52 px-2 py-2"
+                                                    class="border text-sm border-gray-200 text-gray-500 w-52 px-2 py-2"
                                                     name="size" id="size">
                                                     <option value="">Select Size</option>
                                                     <option value="xs">xs</option>
@@ -187,18 +187,22 @@
                                         </div>
 
                                         <!-- radio-buttons -->
-                                        <fieldset class="mt-6 sm:mt-0">
-                                            <legend class="mb-2 text-gray-600 font-medium text-sm">Would you like to
+                                        <fieldset class="flex items-center gap-7">
+                                            <legend class="text-gray-600 font-medium text-sm">Would you like to
                                                 add
                                                 a
                                                 center
                                                 stone?
                                             </legend>
-                                            <input type="radio" id="yes" name="radio" class="w-4 h-4 mx-1 mt-2" checked>
-                                            <label for="yes">Yes</label>
+                                            <div class="flex items-center space-x-2">
+                                                <input type="radio" id="yes" name="radio" class="w-4 h-4" checked>
+                                                <label for="yes">Yes</label>
+                                            </div>
 
-                                            <input class="ml-8 w-4 h-4 mx-1" type="radio" id="no" name="radio">
-                                            <label for="no" class="-mt-14">No</label>
+                                            <div class="flex items-center space-x-2">
+                                                <input class=" w-4 h-4" type="radio" id="no" name="radio">
+                                                <label for="no" class="">No</label>
+                                            </div>
                                         </fieldset>
                                     </div>
 
@@ -349,7 +353,7 @@
 
                                         <!-- left-button and gradient-->
                                         <div
-                                            class="absolute top-8 inset-y-4 w-11 bg-gradient-to-r from-gray-200 to-transparent">
+                                            class="absolute top-8 inset-y-0 w-11 bg-gradient-to-r from-gray-200 to-transparent">
                                             <button type="button" aria-label="right-btn"
                                                 class="absolute left-1 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full flex items-center justify-center">
                                                 <span class="bg-black/70  rounded-full">
@@ -368,7 +372,7 @@
 
                                         <!-- right-button and gradient -->
                                         <div
-                                            class="absolute top-8 inset-y-4 right-0 w-11 bg-gradient-to-l from-gray-200 to-transparent">
+                                            class="absolute top-8 inset-y-0 right-0 w-11 bg-gradient-to-l from-gray-200 to-transparent">
                                             <button type="button" aria-label="left-btn"
                                                 class="absolute right-1 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full flex items-center justify-center">
                                                 <span class="bg-black/70  rounded-full">
@@ -460,7 +464,7 @@
                         <section>
                             <div class="flex flex-col xl:flex-row gap-9">
                                 <!-- product-image -->
-                                <div class="md:w-[548px] md:h-[504px]">
+                                <div class="md:w-[548px] md:h-[504px] mx-auto">
                                     <img class="h-full w-full object-cover rounded-md" src="../../images/unnamed.png"
                                         alt="Ring-image2">
                                 </div>
@@ -493,20 +497,20 @@
                                             <dd class="uppercase">rb1077-wg14</dd>
                                         </dl>
 
-                                        <div class="font-medium text-2xl">$1,258.78</div>
+                                        <p class="font-medium text-2xl">$1,258.78</p>
                                     </header>
 
 
                                     <!-- form for product details -->
-                                    <div class="flex flex-col sm:flex-row gap-x-8 md:gap-x-12 mt-4 mb-3">
-                                        <div class="flex gap-x-8 md:gap-x-12">
+                                    <div class="flex flex-wrap gap-8 md:gap-x-12 mt-4 mb-3">
+                                        <div class="flex flex-wrap gap-6 md:gap-x-12">
                                             <!-- select size dropdown -->
                                             <div class="flex flex-col">
                                                 <label class="mb-2 font-medium text-sm text-gray-600"
                                                     for="product-size">Ring
                                                     size</label>
                                                 <select
-                                                    class="border text-sm border-gray-200 text-gray-500 w-36  md:w-52 px-2 py-2"
+                                                    class="border text-sm border-gray-200 text-gray-500 w-52 px-2 py-2"
                                                     name="select-size" id="product-size">
                                                     <option value="">Select Size</option>
                                                     <option value="xs">xs</option>
@@ -550,22 +554,26 @@
 
                                                 </div>
                                             </div>
-                                        </div>
-
+                                        </div>                                         
 
                                         <!-- radio-buttons -->
-                                        <fieldset class="mt-6 sm:mt-0">
-                                            <legend class="mb-2 text-gray-600 font-medium text-sm">Would you like to add
+                                        <fieldset class="flex items-center">
+                                            <legend class="text-gray-600 font-medium text-sm">Would you like to add
                                                 a
                                                 center
                                                 stone?
                                             </legend>
-                                            <input type="radio" id="radio-yes" name="radio1" class="w-4 h-4 mx-1 mt-2"
-                                                checked>
-                                            <label for="radio-yes">Yes</label>
+                                            <div class="flex items-center space-x-2">
+                                                <input type="radio" id="radio-yes" name="radio1" class="w-4 h-4"
+                                                    checked>
+                                                <label for="radio-yes">Yes</label>
+                                            </div>
 
-                                            <input class="ml-8 w-4 h-4 mx-1" type="radio" id="radio-no" name="radio1">
-                                            <label for="radio-no" class="-mt-14">No</label>
+                                            <div class="flex items-center space-x-2">
+                                                <input class="ml-8 w-4 h-4" type="radio" id="radio-no"
+                                                    name="radio1">
+                                                <label for="radio-no">No</label>
+                                            </div>
                                         </fieldset>
                                     </div>
 
@@ -646,12 +654,13 @@
                                     <div class="relative gap-2 mt-3  text-sm">
                                         <p class="text-gray-600"><span class="font-medium">Engraving:</span> Script
                                             Lettering <q class="font-medium">Ucodesoft</q>
-                                        <svg class=" w-5 h-5 text-black/70 absolute top-0 inset-x-[244px]"
-                                            fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                                            <path
-                                                d="M10 1.6a8.4 8.4 0 1 0 0 16.8 8.4 8.4 0 0 0 0-16.8zm4.789 11.461L13.06 14.79 10 11.729l-3.061 3.06L5.21 13.06 8.272 10 5.211 6.939 6.94 5.211 10 8.271l3.061-3.061 1.729 1.729L11.728 10l3.061 3.061z">
-                                            </path>
-                                        </svg>
+                                            <svg class=" w-5 h-5 text-black/70 absolute top-0 inset-x-[244px]"
+                                                fill="currentColor" xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 20 20">
+                                                <path
+                                                    d="M10 1.6a8.4 8.4 0 1 0 0 16.8 8.4 8.4 0 0 0 0-16.8zm4.789 11.461L13.06 14.79 10 11.729l-3.061 3.06L5.21 13.06 8.272 10 5.211 6.939 6.94 5.211 10 8.271l3.061-3.061 1.729 1.729L11.728 10l3.061 3.061z">
+                                                </path>
+                                            </svg>
                                     </div>
 
                                     <!-- Matching-Items -->
@@ -709,7 +718,7 @@
 
                                         <!-- left-button and gradient-->
                                         <div
-                                            class="absolute top-8 inset-y-4 w-11 bg-gradient-to-r from-gray-200 to-transparent">
+                                            class="absolute top-8 inset-y-0 w-11 bg-gradient-to-r from-gray-200 to-transparent">
                                             <button type="button" aria-label="right-btn-2"
                                                 class="absolute left-1 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full flex items-center justify-center">
                                                 <span class="bg-black/70  rounded-full">
@@ -728,7 +737,7 @@
 
                                         <!-- right-button and gradient -->
                                         <div
-                                            class="absolute top-8 inset-y-4 right-0 w-11 bg-gradient-to-l from-gray-200 to-transparent">
+                                            class="absolute top-8 inset-y-0 right-0 w-11 bg-gradient-to-l from-gray-200 to-transparent">
                                             <button type="button" aria-label="left-btn-2"
                                                 class="absolute right-1 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full flex items-center justify-center">
                                                 <span class="bg-black/70  rounded-full">
@@ -848,7 +857,7 @@
 
                 <!-- shipping-instructions and payment -->
                 <article
-                    class="container mx-auto grid lg:grid-cols-2 lg:gap-20 md:rounded-md shadow mt-9 border border-gray-300 px-5 py-7">
+                    class="container mx-auto grid lg:grid-cols-2 gap-4 lg:gap-20 md:rounded-md shadow mt-9 border border-gray-300 px-5 py-7">
                     <!-- shipping details and instructions -->
                     <div>
                         <!-- Special Instructions -->
@@ -861,7 +870,7 @@
                         <!-- Shipping details -->
                         <div>
                             <h3 class="text-xl my-3 font-semibold">Shipping</h3>
-                            <dl class="md:flex md:justify-between">
+                            <dl class="flex justify-between flex-wrap gap-1">
                                 <div class="mb-2">
                                     <dt class="text-gray-700 text-sm">Estimated shipping Date</dt>
                                     <dd class="text-base text-gray-600 font-semibold"><time
@@ -891,12 +900,11 @@
                                 Priority Mail.
                             </address>
 
-                            <div
-                                class="md:flex md:justify-between items-center mt-4 space-y-3 md:space-y-0 mb-1 text-sm">
+                            <div class="flex justify-between flex-wrap items-center mt-4 gap-3 mb-1 text-sm">
                                 <p>View our <a href="#" class="text-blue-700 font-semibold  underline">Shipping
                                         Policy and Expedite Options.</a></p>
 
-                                <dl class="sm:flex">
+                                <dl class="flex">
                                     <dt>For phone orders please mention:</dt>
                                     <dd class="uppercase font-semibold ml-1">qfphug3</dd>
                                 </dl>
@@ -905,11 +913,10 @@
                     </div>
 
                     <!-- checkout and coupon code -->
-                    <div>
+                    <div class="flex flex-col justify-between">
                         <!-- total payable amount -->
                         <dl>
-                            <div
-                                class="flex justify-between items-center py-4 pt-6 sm:pt-0 border-b-2 border-b-gray-200">
+                            <div class="flex justify-between items-center pb-4 border-b-2 border-b-gray-200">
                                 <dt class="text-gray-600">Subtotal</dt>
                                 <dd class="font-semibold text-xl">$5,364.75</dd>
                             </div>
@@ -926,7 +933,7 @@
                         </dl>
 
                         <!-- Input for Coupon Code -->
-                        <div class="lg:mt-[86px] relative">
+                        <div class="relative">
                             <label for="coupon-code" class="text-gray-500 text-sm ">Coupon Code</label>
                             <input type="text" id="coupon-code" placeholder="Enter Code"
                                 class="border w-full rounded-md px-5 py-4 my-3">
@@ -1035,7 +1042,7 @@
                             making your purchase</p>
 
                         <!-- Care plans -->
-                        <div class="flex flex-col sm:flex-row justify-between mt-10 mb-8">
+                        <div class="flex justify-between gap-2 mt-10 mb-8">
                             <a href="#" class="text-white bg-blue-700 py-3 px-6 font-medium w-52 text-center">Purchase a
                                 Care
                                 Plan</a>
@@ -1148,7 +1155,7 @@
     </main>
 
     <!-- modal-box -->
-    <div class="hidden fixed inset-0 z-30 bg-black/70 top-0 left-0 ">
+    <div class="fixed inset-0 z-30 bg-black/70 top-0 left-0 hidden">
         <section
             class="bg-white max-w-2xl h-full lg:h-min absolute top-0 left-0 md:top-1/2 md:left-1/2 md:-translate-y-1/2 md:-translate-x-1/2 ">
             <!-- svg for cross -->
