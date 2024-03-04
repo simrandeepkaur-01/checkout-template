@@ -7,7 +7,7 @@ module.exports = {
     fontFamily: {
       'sans': ['Poppins', ...defaultTheme.fontFamily.sans],
     },
-    extend: {
+    extend: { 
       fontFamily: {
         'heading': ['Open Sans', ...defaultTheme.fontFamily.sans],
         'jost': ['Jost', 'sans-serif'],
